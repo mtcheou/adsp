@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="adsp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/adsp" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="../../libcomtrade/src" />
+					<Add directory="../../fftw-3.3.4-dll32" />
+					<Add directory="../../libsndfile/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../bin/libcomtrade.a" />
+					<Add library="../../fftw-3.3.4-dll32/libfftw3-3.lib" />
+					<Add library="../../libsndfile/lib/libsndfile-1.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/adsp" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../libadsp/src/SndInFile.cpp" />
+		<Unit filename="../../libadsp/src/SndInFile.h" />
+		<Unit filename="../../libadsp/src/SndOutFile.cpp" />
+		<Unit filename="../../libadsp/src/SndOutFile.h" />
+		<Unit filename="../../libadsp/src/bitstream.cpp" />
+		<Unit filename="../../libadsp/src/bitstream.h" />
+		<Unit filename="../../libadsp/src/cgfunc.h" />
+		<Unit filename="../../libadsp/src/cgmatrix.h" />
+		<Unit filename="../../libadsp/src/complex.cpp" />
+		<Unit filename="../../libadsp/src/complex.h" />
+		<Unit filename="../../libadsp/src/datasignal.cpp" />
+		<Unit filename="../../libadsp/src/datasignal.h" />
+		<Unit filename="../../libadsp/src/defines.h" />
+		<Unit filename="../../libadsp/src/dictionary.cpp" />
+		<Unit filename="../../libadsp/src/dictionary.h" />
+		<Unit filename="../../libadsp/src/filemgr.cpp" />
+		<Unit filename="../../libadsp/src/filemgr.h" />
+		<Unit filename="../../libadsp/src/linkstrbook.cpp" />
+		<Unit filename="../../libadsp/src/linkstrbook.h" />
+		<Unit filename="../../libadsp/src/loadfile.cpp" />
+		<Unit filename="../../libadsp/src/loadfile.h" />
+		<Unit filename="../../libadsp/src/metric.cpp" />
+		<Unit filename="../../libadsp/src/metric.h" />
+		<Unit filename="../../libadsp/src/parameter.cpp" />
+		<Unit filename="../../libadsp/src/parameter.h" />
+		<Unit filename="../../libadsp/src/structbook.cpp" />
+		<Unit filename="../../libadsp/src/structbook.h" />
+		<Unit filename="../../libadsp/src/structs.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="encode" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/encode" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../libadsp/src" />
+					<Add directory="../../libcomtrade/src" />
+					<Add directory="../../fftw-3.3.4-dll32" />
+					<Add directory="../../libsndfile/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../bin/libadsp.a" />
+					<Add library="../bin/libcomtrade.a" />
+					<Add library="../../fftw-3.3.4-dll32/libfftw3-3.lib" />
+					<Add library="../../libsndfile/lib/libsndfile-1.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/encode" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../program/encode/src/adspdefines.h" />
+		<Unit filename="../../program/encode/src/adspsort.cpp" />
+		<Unit filename="../../program/encode/src/adspsort.h" />
+		<Unit filename="../../program/encode/src/arithmetic_codec.cpp" />
+		<Unit filename="../../program/encode/src/arithmetic_codec.h" />
+		<Unit filename="../../program/encode/src/encode.cpp" />
+		<Unit filename="../../program/encode/src/encode.h" />
+		<Unit filename="../../program/encode/src/main.cpp" />
+		<Unit filename="../../program/encode/src/qstep.cpp" />
+		<Unit filename="../../program/encode/src/qstep.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

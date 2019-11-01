@@ -1,0 +1,132 @@
+# depslib dependency file v1.0
+1462467679 source:c:\mtcheou\progs\adsp\program\decomp\src\decomp.cpp
+	"decomp.h"
+
+1399669160 c:\mtcheou\progs\adsp\program\decomp\src\decomp.h
+	"filemgr.h"
+	"structbook.h"
+	"dictionary.h"
+	"datasignal.h"
+
+1418662108 c:\mtcheou\progs\adsp\libadsp\src\filemgr.h
+	"defines.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"structs.h"
+	<string.h>
+
+1429892209 c:\mtcheou\progs\adsp\libadsp\src\defines.h
+
+1462450571 c:\mtcheou\progs\adsp\libadsp\src\structs.h
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\structbook.h
+	<string.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"defines.h"
+	"bitstream.h"
+	"parameter.h"
+	"structs.h"
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\bitstream.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\parameter.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"structs.h"
+
+1429906733 c:\mtcheou\progs\adsp\libadsp\src\dictionary.h
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<fstream>
+	<iomanip>
+	<istream>
+	"fftw3.h"
+	"cgfunc.h"
+	"cgmatrix.h"
+	"complex.h"
+	"defines.h"
+	"datasignal.h"
+	"parameter.h"
+	"filemgr.h"
+	"structbook.h"
+
+1394915260 c:\mtcheou\progs\adsp\fftw-3.3.4-dll32\fftw3.h
+	<stdio.h>
+	<stddef.h>
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\cgfunc.h
+	<iostream>
+	"cgmatrix.h"
+
+1462217170 c:\mtcheou\progs\adsp\libadsp\src\cgmatrix.h
+	<iostream>
+	<fstream>
+	<new>
+	<stdio.h>
+	<string.h>
+	"defines.h"
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\complex.h
+	"defines.h"
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\datasignal.h
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"SndInFile.h"
+	"SndOutFile.h"
+	"newcomtd_99.h"
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\sndinfile.h
+	<iostream>
+	<cstdlib>
+	"sndfile.h"
+
+1310603266 c:\mtcheou\progs\adsp\libsndfile\include\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1359745988 c:\mtcheou\progs\adsp\libadsp\src\sndoutfile.h
+	<string.h>
+	<iostream>
+	<cstdlib>
+	"sndfile.h"
+
+1376490134 c:\mtcheou\progs\adsp\libcomtrade\src\newcomtd_99.h
+	"newcomtd.h"
+
+1359745988 c:\mtcheou\progs\adsp\libcomtrade\src\newcomtd.h
+	"bincomtd.h"
+
+1376490112 c:\mtcheou\progs\adsp\libcomtrade\src\bincomtd.h
+	"comtrade.h"
+
+1376490098 c:\mtcheou\progs\adsp\libcomtrade\src\comtrade.h
+	"buftipos.h"
+
+1376490060 c:\mtcheou\progs\adsp\libcomtrade\src\buftipos.h
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	"stdafx.h"
+
+1429911420 source:c:\mtcheou\progs\adsp\program\decomp\src\main.cpp
+	"decomp.h"
+

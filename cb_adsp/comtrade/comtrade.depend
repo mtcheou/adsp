@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1359745988 source:c:\mtcheou\progs\adsp\libcomtrade\src\bincomtd.cpp
+	<math.h>
+	<string.h>
+	<limits.h>
+	<assert.h>
+	"bincomtd.h"
+
+1376490112 c:\mtcheou\progs\adsp\libcomtrade\src\bincomtd.h
+	"comtrade.h"
+
+1376490098 c:\mtcheou\progs\adsp\libcomtrade\src\comtrade.h
+	"buftipos.h"
+
+1376490060 c:\mtcheou\progs\adsp\libcomtrade\src\buftipos.h
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	"stdafx.h"
+
+1359745988 source:c:\mtcheou\progs\adsp\libcomtrade\src\buftipos.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	"buftipos.h"
+
+1359745988 source:c:\mtcheou\progs\adsp\libcomtrade\src\comtrade.cpp
+	<math.h>
+	<string.h>
+	<limits.h>
+	<assert.h>
+	<iostream>
+	"comtrade.h"
+
+1359745988 source:c:\mtcheou\progs\adsp\libcomtrade\src\newcomtd.cpp
+	<math.h>
+	<string.h>
+	<limits.h>
+	<assert.h>
+	"newcomtd.h"
+
+1359745988 c:\mtcheou\progs\adsp\libcomtrade\src\newcomtd.h
+	"bincomtd.h"
+
+1359745988 source:c:\mtcheou\progs\adsp\libcomtrade\src\newcomtd_99.cpp
+	<math.h>
+	<string.h>
+	<limits.h>
+	<assert.h>
+	"newcomtd_99.h"
+
+1376490134 c:\mtcheou\progs\adsp\libcomtrade\src\newcomtd_99.h
+	"newcomtd.h"
+

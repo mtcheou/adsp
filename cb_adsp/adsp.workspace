@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="comtrade/comtrade.cbp" />
+		<Project filename="adsp/adsp.cbp" />
+		<Project filename="decomp/decomp.cbp" />
+		<Project filename="encode/encode.cbp" />
+		<Project filename="faultreport/faultreport.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
