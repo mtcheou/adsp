@@ -1,0 +1,16 @@
+                                       XXXXXXXXXXX
+Tipo de Sinal                                    1 (1 - eletrico; 2 - audio; 3 - ruido)
+Dicionario                                       1 (1 - senoides amortecidas)
+Num. maximo de iteracoes                         5
+Coeficiente suporte temporal                  1.05
+Usa heuristica bloco subsequente                 0
+Coef bloco subsequente                        1.15
+Atomo continuado                                 0
+Suporte temporal                                 1
+Otimiza decaimento                               1
+Approximation ratio target                       0
+SNR target                             99999999999
+print decomp stages                              1    
+Carrega arquivo RD                               1 (0 - Gera arquivo RD; 
+                                                    1 - usa arquivo RD; 
+                                                    2 - usa arquivo RD e gera wavs da curva operacional (RD) )
